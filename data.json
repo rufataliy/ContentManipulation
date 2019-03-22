@@ -1,0 +1,19 @@
+
+{
+  "solar":{
+          "heading": "Solar Energy",
+          "img":"img/img1.jpg",
+          "content":"content1"
+        },
+  "wind":{
+          "heading":"Wind Energy",
+          "img":"img/img2.jpg",
+          "content":"content2"
+
+        },
+  "rain": {
+          "heading":"Rain Energy",
+          "img":"img/img3.jpg",
+          "content":"content3"
+          }
+}

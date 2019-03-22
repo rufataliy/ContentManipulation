@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<contents>
+  <item>
+    <heading>Solar Energy<heading>
+    <path>img/img1.jpg</path>
+    <content>content1</content>
+  </item>
+  <item>
+    <heading>Wind Energy<heading>
+    <path>img/img2.jpg</path>
+    <content>content2</content>
+  </item>
+  <item>
+    <heading>Rain Energy<heading>
+    <path>img/img3.jpg</path>
+    <content>content3</content>
+  </item>
+
+</contents>
