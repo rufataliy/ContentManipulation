@@ -108,7 +108,7 @@ btn.forEach(a=>a.addEventListener("click", handleSelection))
 function handleSelection (e) {
   content.classList.add("load")
   setTimeout(()=>{content.classList.remove("load")},350)
-  console.log(e.target);
+  
   if ((e.target.parentElement.getAttribute("data-key") || e.target.getAttribute("data-key"))  == "1") {
       heading.innerHTML = contentObj.wind.heading
       img.setAttribute("src",`${contentObj.wind.img}`)
