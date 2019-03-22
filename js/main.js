@@ -127,7 +127,7 @@ function handleSelection (e) {
       heading.innerHTML = contentObj.rain.heading
       img.setAttribute("src",`${contentObj.rain.img}`)
       content_text.innerHTML = contentObj.rain.content
-       rain.classList.add("rain");
+       sun.classList.add("spin");
        slideBg.style.backgroundPositionX = "50%"
        setTimeout(()=>{rain.classList.remove("spin")},1500)
        document.querySelectorAll(".energy-box-wrap").forEach((e)=>{
@@ -139,7 +139,7 @@ function handleSelection (e) {
       heading.innerHTML = contentObj.solar.heading
       img.setAttribute("src",`${contentObj.solar.img}`)
       content_text.innerHTML = contentObj.solar.content
-    sun.classList.add("spin");
+    rain.classList.add("rain");
     slideBg.style.backgroundPositionX = "100%"
     setTimeout(()=>{sun.classList.remove("rain")},1300)
     document.querySelectorAll(".energy-box-wrap").forEach((e)=>{
