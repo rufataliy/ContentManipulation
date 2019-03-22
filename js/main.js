@@ -1,5 +1,5 @@
 
-
+function preloader () {
         const imagesPaths = [
            "./img/img1.jpg",
            "./img/img2.jpg",
@@ -14,7 +14,9 @@
 
         // Images ready to be used:
         console.log(`Preloaded images:\n\t${images[0].src}\n\t${images[1].src}\n\t${images[2].src}`);
+}
 
+window.addEventListener("load",preloader)
 
         const contentObj = {
 
