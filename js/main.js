@@ -131,7 +131,7 @@ function handleSelection (e) {
       content_text.innerHTML = contentObj.rain.content
        sun.classList.add("spin");
        slideBg.style.backgroundPositionX = "50%"
-       setTimeout(()=>{rain.classList.remove("spin")},1500)
+       setTimeout(()=>{sun.classList.remove("spin")},1500)
        document.querySelectorAll(".energy-box-wrap").forEach((e)=>{
          e.classList.remove("active")
        })
@@ -143,7 +143,7 @@ function handleSelection (e) {
       content_text.innerHTML = contentObj.solar.content
     rain.classList.add("rain");
     slideBg.style.backgroundPositionX = "100%"
-    setTimeout(()=>{sun.classList.remove("rain")},1300)
+    setTimeout(()=>{rain.classList.remove("rain")},1300)
     document.querySelectorAll(".energy-box-wrap").forEach((e)=>{
       e.classList.remove("active")
     })
