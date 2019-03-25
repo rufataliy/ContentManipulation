@@ -126,9 +126,9 @@ function handleSelection (e) {
        setTimeout(()=>{turbineHead.classList.remove("spin")},1500)
   }
     else if ((e.target.parentElement.getAttribute("data-key") || e.target.getAttribute("data-key")) == "2") {
-      heading.innerHTML = contentObj.rain.heading
-      img.setAttribute("src",`${contentObj.rain.img}`)
-      content_text.innerHTML = contentObj.rain.content
+      heading.innerHTML = contentObj.solar.heading
+      img.setAttribute("src",`${contentObj.solar.img}`)
+      content_text.innerHTML = contentObj.solar.content
        sun.classList.add("spin");
        slideBg.style.backgroundPositionX = "50%"
        setTimeout(()=>{sun.classList.remove("spin")},1500)
@@ -138,9 +138,9 @@ function handleSelection (e) {
        e.target.closest(".energy-box-wrap").classList.add("active")
   }
     else if ((e.target.parentElement.getAttribute("data-key") || e.target.getAttribute("data-key")) == "3") {
-      heading.innerHTML = contentObj.solar.heading
-      img.setAttribute("src",`${contentObj.solar.img}`)
-      content_text.innerHTML = contentObj.solar.content
+      heading.innerHTML = contentObj.rain.heading
+      img.setAttribute("src",`${contentObj.rain.img}`)
+      content_text.innerHTML = contentObj.rain.content
     rain.classList.add("rain");
     slideBg.style.backgroundPositionX = "100%"
     setTimeout(()=>{rain.classList.remove("rain")},1300)
